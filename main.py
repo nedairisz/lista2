@@ -4,6 +4,9 @@ import feladatok
 szoveg_lista= ["Alma","Körte","Szilva","Szőlő","alma"]
 import szoveglista
 
+"""
+feladatok.feladat1(szam_lista)
+
 gyujto: float = feladatok.feladat2(szam_lista)
 print("2.feladat")
 print(f"A pozitív számok összege {gyujto}")
@@ -39,8 +42,7 @@ print(f"{db} db Alma/alma van a listában")
 
 db= szoveglista.szoveg_feladat2(szoveg_lista)
 print("2. feladat")
-print(f"{db} db Sz betűvel kezdődő szöveg van a listában")
+print(f"{db} db Sz betűvel kezdődő szöveg van a listában")"""
 
-leghosszabb= szoveglista.szoveg_feladat3(szoveg_lista)
 print("3. feladat")
-print(f"A leghosszabb szó: {leghosszabb} ")
+szoveglista.szoveg_feladat3(szoveg_lista)

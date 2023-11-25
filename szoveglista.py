@@ -25,6 +25,13 @@ def szoveg_feladat3(szoveg_lista):
     leghosszabb = szoveg_lista[0]
     i = 0
     while i < len(szoveg_lista):
-        if leghosszabb < szoveg_lista[i]:
+        if len(leghosszabb) < len(szoveg_lista[i]):
             leghosszabb = szoveg_lista[i]
-        i +=1
+        i += 1
+    print(f"{leghosszabb} a leghosszabb szó a listában.")
+    
+    hossza:str = len(leghosszabb)
+    print(f"hossza {len(leghosszabb)} betu.")
+
+    hanyadik:str = szoveg_lista.index(leghosszabb)+1
+    print(f"és {hanyadik}. helyen äll a listäban.")

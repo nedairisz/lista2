@@ -14,8 +14,7 @@ def feladat2(szam_lista):
         if (szam_lista[i]) > 0:
             gyujto += i
         i += 1
-    return gyujto
-        
+    return gyujto     
 
 # 3. Hány negatív szám van? - megszámlálás
 def feladat3(szam_lista):
